@@ -9,7 +9,7 @@ dayObj = MLBData('DD/MM/YYYY')
 
 gameObj = dayObj.getTeamData('teamAbbrv')
 ```
-#Examples
+#Examples:
 ```python
 gameObj.linescore.hr.away
 ```
