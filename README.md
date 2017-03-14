@@ -1,7 +1,7 @@
 # MLBDataScraper
 Python scraper of the MLB Database
 
-##Usage:
+## Usage:
 ```python
 from mlbdatascraper import MLBData
 
@@ -9,7 +9,7 @@ dayObj = MLBData('DD/MM/YYYY')
 
 gameObj = dayObj.getTeamData('teamAbbrv')
 ```
-##Examples:
+## Examples:
 ```python
 gameObj.linescore.hr.away
 ```
@@ -25,7 +25,7 @@ for player in players:
 ```
 returns the number of players on base when the player hit the homerun, for each player
 
-##Properties:
+## Properties:
 away_code
 
 away_division
