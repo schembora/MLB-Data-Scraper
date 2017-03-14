@@ -2,7 +2,10 @@
 Python scraper of the MLB Database
 
 ## Usage:
+
+
 ```python
+from bs4 import BeautifulSoup
 from mlbdatascraper import MLBData
 
 dayObj = MLBData('DD/MM/YYYY')
