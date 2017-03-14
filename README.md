@@ -18,11 +18,11 @@ gameObj.linescore.hr.away
 ```
 returns number of homeruns scored by away team
 ```python
-gameObj.linescore.homeruns
+gameObj.homeruns
 ```
 returns array of objects with properties std_hr, hr, id, last, team_code, inning, runners, number, name_display_roster, first
 ```python
-players = gameObj.linescore.homeruns
+players = gameObj.homeruns
 for player in players:
   player.runners
 ```
